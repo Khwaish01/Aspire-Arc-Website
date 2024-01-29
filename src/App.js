@@ -19,13 +19,13 @@ function App() {
   }, [action, pathname]);
 
   useEffect(() => {
-    let title = "";
-    let metaDescription = "";
+    let title = "Aspire-Arc";
+    let metaDescription = "Aspire-Arc";
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
+        title = "Aspire-Arc";
+        metaDescription = "Aspire-Arc";
         break;
     }
 
