@@ -1,0 +1,2117 @@
+.logo-icon {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  @media only screen and (min-width: 320px) and (max-width: 430px) {
+    margin-left: 0px;
+    position:absolute;
+    left: 12%;
+    right: 50%;
+  }
+}
+.aspire-arc {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+  @media only screen and (min-width: 320px) and (max-width: 430px) {
+    margin-left: 0px;
+    position:absolute;
+    left: 25%;
+    font-size: 40;
+  }
+}
+.text-frame {
+  align-self: stretch;
+  width: 354px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.home {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  
+}
+.image-at {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px 0 0;
+  color: var(--color-mediumslateblue);
+}
+.about {
+  position: relative;
+  font-weight: 600;
+}
+.feedback-frame {
+  flex: 0.6351;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-12xs) var(--padding-sm) var(--padding-12xs)
+    var(--padding-smi);
+  cursor: pointer;
+}
+.courses,
+.feedback-frame,
+.feedback-frame1 {
+  display: flex;
+  align-items: center;
+}
+.courses {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+}
+.feedback-frame1 {
+  flex: 0.973;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-12xs);
+  cursor: pointer;
+}
+.location {
+  position: relative;
+  font-weight: 600;
+}
+.feedback-frame2 {
+  flex: 0.9054;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-12xs) 4px var(--padding-12xs) var(--padding-10xs);
+  cursor: pointer;
+}
+.contact,
+.feedback-frame2,
+.feedback-frame3 {
+  display: flex;
+  align-items: center;
+}
+.contact {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+}
+.feedback-frame3 {
+  flex: 0.973;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-12xs);
+  cursor: pointer;
+}
+.feedback {
+  position: relative;
+  font-weight: 600;
+}
+.feedback-frame4 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-12xs) 0;
+  cursor: pointer;
+}
+.contact-us-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.personalized-counselling {
+  width: 511px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+}
+.math-image {
+  width: 988px;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: 50px;
+  color: var(--color-black);
+  font-family: var(--font-wellfleet);
+}
+.aspire {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 60px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+  }
+}
+.span {
+  font-size: 74px;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 60px;
+    margin-left: 20px;
+  }
+}
+.inspire {
+  font-size: var(--font-size-77xl);
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 60px;
+  }
+}
+.to-inspire {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 60px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+  }
+}
+.unleash-your-brilliance {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    align-self: stretch;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+    padding-top: 10px;
+    margin-left: 25px;
+  }
+}
+.the-design-thinking-container {
+  height: 311px;
+  flex: 1;
+  position: relative;
+  line-height: 100px;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    height: 150px;
+  }
+}
+.follow-us {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  max-width: 100%;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    height:200px;
+    padding-top: 20px;
+  }
+}
+.get-started {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+}
+.button {
+  width: 255px;
+  background-color: var(--color-mediumslateblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) 0 19px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 40px;;
+  }
+}
+.phone-no {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.follow-us1 {
+  width: 127px;
+  height: 29px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 32px;
+  }
+}
+.google-icon {
+  width: 48px;
+  border-radius: var(--br-381xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.github-icon,
+.google-icon,
+.group-icon,
+.linkedin-icon {
+  height: 48px;
+  position: relative;
+  min-height: 48px;
+  cursor: pointer;
+}
+.linkedin-icon {
+  width: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.github-icon,
+.group-icon {
+  width: 47.4px;
+}
+.github-icon {
+  width: 47.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.group-computer-science,
+.rectangle-maths-science {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.group-computer-science {
+  width: 290px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangle-maths-science {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.parent-frame-maths-science {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    position:absolute;
+    margin-top: 200px;
+    padding-top: 15px;
+    
+  }
+}
+.maths-science-frame,
+.parent-frame-maths-science,
+.phone-no-parent,
+.united-india-apartments {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.maths-science-frame {
+  width: 406px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.phone-no-parent,
+.united-india-apartments {
+  flex-direction: column;
+}
+.phone-no-parent {
+  align-self: stretch;
+  gap: 48px;
+}
+.united-india-apartments {
+  width: 426px;
+  padding: var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+  min-width: 426px;
+}
+.hard-working-characters-png-tr {
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  border-radius: 58px;
+  width: 526px;
+  height: 474px;
+  object-fit: cover;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    height: 100px; object-fit: cover;
+    position: relative;
+    z-index: 999;
+    top: 10px;
+    margin-right: 20px;
+  }
+}
+.student-imteraction-image {
+  height: 504px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  min-width: 371px;
+  max-width: 100%;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    margin: 0;
+    align-self: stretch;
+    height: 180px;
+    position: relative;
+    font-size: inherit;
+    line-height: 64px;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: pre-wrap;
+    display: inline-block;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.star-component {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.math-image-parent,
+.star-component,
+.title-frame-inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.math-image-parent {
+  width: 1042px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.title-frame-inner {
+  width: 1174px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 720px;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: #2f281e;
+  font-family: var(--font-acme);
+}
+.why-aspire-arc {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 1px 0 0#917575, 0 1px 0#917575, -1px 0 0#917575, 0-1px 0#917575;
+  max-width: 100%;
+}
+.rating-component,
+.text-introducing-machine-learn {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-introducing-machine-learn {
+  flex: 1;
+  border-radius: 2px;
+  background-color: var(--color-white);
+  border-top: 5px solid var(--color-gray-100);
+  border-bottom: 5px solid var(--color-gray-100);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-10xs);
+}
+.rating-component {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) 0 var(--padding-xl);
+  text-align: center;
+  color: #04031a;
+  font-family: var(--font-montserrat-alternates);
+}
+.coffees-01-icon {
+  width: 501px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.supportive-faculty {
+  margin: 0;
+  height: 51px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.phone-no-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aspire-arc-values,
+.the-faculty-at {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.aspire-arc-values-container {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-arbutus-slab);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.rectangle-location,
+.text-united-india-apartments {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.text-united-india-apartments {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-18xl);
+}
+.rectangle-location {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+  min-width: 375px;
+}
+.personalized-counselling-sessi {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+}
+.interactive-learning {
+  margin: 0;
+  height: 51px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    height: 30px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    margin-top: 30px;
+  }
+}
+.img-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.classes-at-aspire,
+.the-emphasis-on {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    text-align: justify;
+  }
+}
+.classes-at-aspire-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-arbutus-slab);
+}
+.background-rectangle,
+.sub-title-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.background-rectangle {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-19xl);
+}
+.sub-title-frame {
+  flex: 1;
+  align-items: flex-start;
+  padding: 29px 0 0;
+  box-sizing: border-box;
+  min-width: 375px;
+}
+.coffees-01-icon1 {
+  width: 477px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.title-frame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  gap: 63px;
+  max-width: 100%;
+}
+.coffees-01-icon2 {
+  width: 488px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.flexible-schedules {
+  margin: 0;
+  height: 51px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.flexible-schedules-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.recognizing-the-challenges,
+.this-allows-students {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    text-align: justify;
+  }
+}
+.recognizing-the-challenges-container {
+  align-self: stretch;
+  height: 190px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-arbutus-slab);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.th-frame,
+.th-frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.th-frame {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-18xl);
+}
+.th-frame-wrapper {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-2xl);
+  box-sizing: border-box;
+  min-width: 375px;
+}
+.immerse-text,
+.immerse-text-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.immerse-text {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-37xl);
+}
+.immerse-text-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 8px 0 0;
+  box-sizing: border-box;
+}
+.real-world-applications {
+  margin: 0;
+  height: 46px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.real-world-applications-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 62px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aspire-arc-believes,
+.this-approach-ensures {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    text-align: justify;
+  }
+}
+.aspire-arc-believes-container {
+  align-self: stretch;
+  height: 175px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-arbutus-slab);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.rating-component-wrapper,
+.rating-component1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rating-component1 {
+  align-self: stretch;
+  gap: 50px;
+}
+.rating-component-wrapper {
+  flex: 1;
+  padding: 0 0 25px;
+  box-sizing: border-box;
+  min-width: 375px;
+}
+.coffees-01-icon3 {
+  width: 446px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.contact-us-frame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-43xl);
+  max-width: 100%;
+}
+.coffees-01-icon4 {
+  width: 468px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.guidance-for-the {
+  margin: 0;
+  height: 51px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.guidance-for-the-future-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-19xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aspire-arc-goes,
+.students-benefit-from {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    text-align: justify;
+  }
+}
+.aspire-arc-goes-container {
+  align-self: stretch;
+  height: 183px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-arbutus-slab);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-group,
+.personalized-counselling-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-group {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-38xl);
+}
+.personalized-counselling-inner {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 0 11px;
+  box-sizing: border-box;
+  min-width: 375px;
+}
+.personalized-counselling1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-38xl);
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.personalized-counselling-frame {
+  width: 1105px;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: 59px;
+  font-size: var(--font-size-17xl);
+}
+.frame-book-free-illustration-s,
+.frame-parent,
+.personalized-counselling-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-45xl);
+}
+.frame-book-free-illustration-s {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-37xl);
+}
+.exolore-more-and-about-us,
+.parent-contact-us {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.exolore-more-and-about-us {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-13xl) 24px 95px 34px;
+  gap: var(--gap-19xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-neuton);
+}
+.courses2 {
+  margin: 0;
+  height: 122px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.immerse-yourself,
+.th-grade-computer-science {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.immerse-yourself {
+  flex: 1;
+  border-top: 4px solid var(--color-black);
+  border-bottom: 4px solid var(--color-black);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    height: 50px;
+  }
+}
+.th-grade-computer-science {
+  width: 1013px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  flex-shrink: 0;
+}
+.th-10th,
+.untitled-design-9-1 {
+  position: relative;
+  max-width: 100%;
+}
+.untitled-design-9-1 {
+  align-self: stretch;
+  height: 336px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.th-10th {
+  margin: 0;
+  height: 35px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    text-align: center;
+  }
+}
+.immerse-yourself-in {
+  margin: 0;
+}
+.immerse-yourself-in-container {
+  margin: 0;
+  align-self: stretch;
+  height: 184px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 400;
+  font-family: var(--font-kurale);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.introducing-machine-learning,
+.th-10th-grade-maths-scienc-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.th-10th-grade-maths-scienc-parent {
+  align-self: stretch;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.introducing-machine-learning {
+  flex: 1;
+  gap: 39px;
+  min-width: 304px;
+}
+.step-into-the,
+.th-12th,
+.untitled-design-10-1 {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.untitled-design-10-1 {
+  height: 336px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.step-into-the,
+.th-12th {
+  margin: 0;
+  display: inline-block;
+}
+.th-12th {
+  height: 70px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+.step-into-the {
+  height: 183px;
+  font-size: var(--font-size-5xl);
+  font-weight: 400;
+  font-family: var(--font-kurale);
+  text-align: left;
+}
+.th-12th-grade-computer-scie-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+  gap: var(--gap-4xs);
+}
+.introducing-machine-learning1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  min-width: 304px;
+  max-width: 100%;
+  text-align: center;
+}
+.introducing-machine-learning-parent {
+  width: 990px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-37xl);
+  max-width: 100%;
+}
+.untitled-design-11-1 {
+  align-self: stretch;
+  height: 320.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.introducing-machine-learning2,
+.take-your-skills {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.introducing-machine-learning2 {
+  height: 70px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.take-your-skills {
+  height: 183px;
+  font-size: var(--font-size-5xl);
+  font-weight: 400;
+  font-family: var(--font-kurale);
+  text-align: left;
+}
+.frame-text,
+.whats-app-image-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-text {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi);
+  gap: var(--gap-4xs);
+}
+.whats-app-image-frame {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-xl);
+  min-width: 304px;
+  max-width: 100%;
+}
+.untitled-design-11-2 {
+  align-self: stretch;
+  height: 320px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.embark-on-a,
+.personalized-counselling-sessi1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.personalized-counselling-sessi1 {
+  height: 43px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.embark-on-a {
+  height: 209px;
+  font-size: var(--font-size-5xl);
+  font-weight: 400;
+  font-family: var(--font-kurale);
+  text-align: left;
+}
+.contact-us,
+.personalized-counselling-sessi-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.personalized-counselling-sessi-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi);
+  gap: 8px;
+}
+.contact-us {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-xl);
+  min-width: 304px;
+  max-width: 100%;
+}
+.machine-learning-intro {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 80px;
+  max-width: 100%;
+  text-align: center;
+}
+.courses1,
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-container {
+  width: 1013px;
+  gap: 123px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-kreon);
+}
+.courses1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: 77px var(--padding-xl) 176px 33px;
+  box-sizing: border-box;
+  gap: 91px;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  font-family: var(--font-kotta-one);
+}
+.whatsapp-image-2023-11-26-at-1 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 596px);
+  max-height: 100%;
+  object-fit: cover;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    padding-left: 385px;
+    width: 28rem;
+    height: 28rem;
+  }
+}
+.contact-us2 {
+  margin: 0;
+  height: 72px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.book-your-free {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 30px;
+  }
+}
+.fill-the-form {
+  margin: 0;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 25px;
+  }
+}
+.book-your-free-container {
+  align-self: stretch;
+  height: 178px;
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.or {
+  margin: 0;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 24px;
+  }
+}
+.fill-the-form1 {
+  margin: 0;
+  text-decoration: underline;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    font-size: 28px;
+  }
+}
+.or-fill-the-container {
+  margin: 0;
+  height: 88px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+}
+.or-fill-the-form-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+}
+.book-your-free-illustration-se-parent,
+.contact-us1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.book-your-free-illustration-se-parent {
+  width: 486px;
+  gap: var(--gap-sm);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: #09021d;
+  font-family: var(--font-acme);
+}
+.contact-us1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: 129px var(--padding-xl) 102px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 106px;
+  text-align: left;
+  font-size: 64px;
+  color: #030000;
+  font-family: var(--font-lobster);
+}
+.whatsapp-image-2023-11-28-at-1 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  top: 0;
+  right: -0.5px;
+  bottom: 0;
+  left: 0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  
+}
+.please-provide-your {
+  margin: 0;
+  height: 75px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  -webkit-text-stroke: 1px #43a2ae;
+  z-index: 1;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    text-align: center;
+  }
+}
+.rating-component-child,
+.rating-component-child1,
+.rating-component-inner,
+.rating-component-item,
+.star-icon {
+  height: 125px;
+  width: 125.8px;
+  position: relative;
+  border-radius: var(--br-12xs);
+  flex-shrink: 0;
+  min-height: 125px;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    height: 40px;
+    width:30px;
+    margin-top: -20px;
+    left: 6.5%;
+    
+  }
+}
+.rating-component2,
+.rating-system {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  
+  }
+
+.rating-component2 {
+  width: 755px;
+  background-color: #080d3c;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  gap: 30px;
+  cursor: pointer;
+  z-index: 1;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    width: 25rem;
+    height: 5rem;
+  }
+}
+.rating-system {
+  flex-direction: column;
+  align-items: center;
+  gap: 124px;
+  
+}
+.your-opinion-matters {
+  margin: 0;
+  width: 598px;
+  height: 65px;
+  position: relative;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: var(--font-bubblegum-sans);
+  color: var(--color-black);
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0#ffc369, 0 1px 0#ffc369, -1px 0 0#ffc369, 0-1px 0#ffc369;
+  max-width: 100%;
+  z-index: 1;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    text-align: center;
+  }
+}
+.feedback1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 61px var(--padding-xl) var(--padding-29xl) var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 147px;
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: #2f0505;
+  font-family: var(--font-notoseriftamilslanted);
+}
+.united-india-apartments-mayur,
+.we-are-currently-located-at {
+  margin: 0;
+}
+.we-are-currently-container {
+  margin: 0;
+  align-self: stretch;
+  height: 240.1px;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  transform: rotate(-0.02deg);
+  font-family: inherit;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    margin-top: 400px;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: -100px;
+  }
+}
+.location-pad {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  min-width: 449px;
+  max-width: 100%;
+}
+.whatsapp-image-2023-11-28-at-11 {
+  width: 419px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  cursor: pointer;
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    margin-top: -200px;
+    position: absolute;
+
+    margin-left: -25px;
+  }
+}
+.location-wrapper,
+.location1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.location1 {
+  flex: 1;
+  overflow: hidden;
+  align-items: center;
+  padding: 42px 5px 28px 71px;
+  gap: var(--gap-sm);
+  z-index: 3;
+}
+.location-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xl);
+  text-align: center;
+  font-size: 42px;
+  color: var(--color-black);
+  font-family: var(--font-alef);
+}
+.design-1-icon {
+  height: 249px;
+  width: 308px;
+  position: relative;
+  object-fit: cover;
+}
+.united-india-apartments2 {
+  margin: 0;
+  align-self: stretch;
+  height: 65.2px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  transform: rotate(-0.02deg);
+}
+.phone-no-91 {
+  height: 30px;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+}
+.apartment-address {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.follow-us2 {
+  margin: 0;
+  height: 29px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.google-icon1 {
+  width: 48px;
+  border-radius: var(--br-381xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.github-icon1,
+.google-icon1,
+.group-icon1,
+.linkedin-icon1 {
+  height: 48px;
+  position: relative;
+  min-height: 48px;
+  cursor: pointer;
+  z-index: 1;
+}
+.linkedin-icon1 {
+  width: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.github-icon1,
+.group-icon1 {
+  width: 47.4px;
+}
+.github-icon1 {
+  width: 47.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.google-linkedin-group-git-hub,
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.social-media-icons {
+  justify-content: flex-start;
+  gap: 21px;
+}
+.google-linkedin-group-git-hub {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.follow-us-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.social-media-links,
+.united-india-apartments1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.social-media-links {
+  width: 328px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 12px;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: var(--font-montserrat);
+}
+.united-india-apartments1 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-6xl);
+}
+.design-1-parent,
+.title-frame,
+.united-india-info {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.united-india-info {
+  width: 374px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  min-width: 374px;
+  max-width: 100%;
+}
+.design-1-parent,
+.title-frame {
+  overflow: hidden;
+}
+.design-1-parent {
+  align-self: stretch;
+  border-radius: 20px;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-mid) 80px var(--padding-base);
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-acme);
+}
+.title-frame {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  padding: 53px 0 23px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .personalized-counselling-sessi {
+    gap: var(--gap-13xl);
+  }
+  .contact-us-frame1,
+  .title-frame1 {
+    gap: var(--gap-12xl);
+  }
+  .frame-parent {
+    gap: var(--gap-13xl);
+  }
+  .exolore-more-and-about-us {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .courses1 {
+    padding-top: 50px;
+    padding-bottom: 114px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contact-us-frame {
+    display: none;
+  }
+  .personalized-counselling {
+    width: 0;
+  }
+  .the-design-thinking-container {
+    font-size: var(--font-size-29xl);
+    line-height: 60px;
+  }
+  .united-india-apartments {
+    flex: 1;
+  }
+  .star-component {
+    flex-wrap: wrap;
+  }
+  .why-aspire-arc {
+    font-size: var(--font-size-13xl);
+  }
+  .coffees-01-icon {
+    flex: 1;
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      height:200px;
+      flex: 1;
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      object-fit: cover;
+      margin-bottom: -350px;
+      margin-right: 20px;
+    
+    }
+  }
+  .supportive-faculty {
+    font-size: var(--font-size-13xl);
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      align-self: stretch;
+      height: 274px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: var(--gap-base);
+      left: -10%;
+    }
+  }
+  .personalized-counselling-sessi {
+    flex-wrap: wrap;
+  }
+  .interactive-learning {
+    font-size: var(--font-size-13xl);
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      align-self: stretch;
+      height: 274px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: var(--gap-base);
+      padding-top: 40px;
+    }
+  }
+  .coffees-01-icon1 {
+    flex: 1;
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+    height: 196.7px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    margin-top: -430px;
+    margin-right: 20px;
+  }
+  }
+  .title-frame1 {
+    flex-wrap: wrap;
+  }
+  .coffees-01-icon2 {
+    flex: 1;
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      height: 196.7px;
+      flex: 1;
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      object-fit: cover;
+      margin-bottom: -350px;
+      margin-right: 20px;
+    }
+  }
+  .flexible-schedules {
+    font-size: var(--font-size-13xl);
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      align-self: stretch;
+      height: 274px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: var(--gap-base);
+      left: -10%;
+    }
+  }
+  .immerse-text {
+    flex-wrap: wrap;
+  }
+  .real-world-applications {
+    font-size: var(--font-size-10xl);
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      align-self: stretch;
+      height: 274px;
+      display: flex;
+      flex-direction: column;
+      align-items: justify;
+      justify-content: flex-start;
+      gap: var(--gap-base);
+      padding-top: 10px;
+      text-align: center;
+    } 
+  }
+  .coffees-01-icon3 {
+    flex: 1;
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      height: 196.7px;
+      flex: 1;
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      object-fit: cover;
+      margin-top: -680px;
+      margin-right: 20px;
+    }
+  }
+  .contact-us-frame1 {
+    flex-wrap: wrap;
+  }
+  .coffees-01-icon4 {
+    flex: 1;
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      height: 196.7px;
+      flex: 1;
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      object-fit: cover;
+      margin-bottom: -380px;
+      margin-right: 20px;
+    }
+  }
+  .guidance-for-the {
+    font-size: var(--font-size-13xl);
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      align-self: stretch;
+      height: 274px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: var(--gap-base);
+      left: -10%;
+      text-align: center;
+      
+    }
+  }
+  .personalized-counselling1 {
+    flex-wrap: wrap;
+  }
+  .courses2 {
+    font-size: var(--font-size-29xl);
+    @media screen and (min-width: 320px) and (max-width: 430px) {
+      font-size: 40px;
+      margin-bottom: -80px;
+    }
+  }
+  .machine-learning-intro {
+    gap: 40px;
+  }
+  .frame-container {
+    gap: 61px;
+  }
+  .courses1 {
+    gap: var(--gap-26xl);
+    padding-top: var(--padding-13xl);
+    padding-bottom: 74px;
+    box-sizing: border-box;
+  }
+  .contact-us2 {
+    font-size: 51px;
+  }
+  .book-your-free-container,
+  .or-fill-the-container {
+    font-size: var(--font-size-9xl);
+  }
+  .please-provide-your {
+    font-size: var(--font-size-19xl);
+  }
+  .rating-system {
+    gap: var(--gap-43xl);
+    
+  }
+  .your-opinion-matters {
+    font-size: var(--font-size-17xl);
+  }
+  .feedback1 {
+    gap: 73px;
+  }
+  .we-are-currently-container {
+    font-size: 34px;
+  }
+  .whatsapp-image-2023-11-28-at-11 {
+    flex: 1;
+  }
+  .location1 {
+    flex-wrap: wrap;
+  }
+  .design-1-icon,
+  .united-india-info {
+    flex: 1;
+  }
+  .design-1-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .united-india-apartments {
+    min-width: 100%;
+  }
+  .star-component {
+    gap: var(--gap-3xl);
+  }
+  .math-image-parent {
+    gap: var(--gap-lgi);
+  }
+  .text-united-india-apartments {
+    gap: var(--gap-lg);
+  }
+  .rectangle-location {
+    min-width: 100%;
+  }
+  .personalized-counselling-sessi {
+    gap: var(--gap-base);
+  }
+  .background-rectangle {
+    gap: var(--gap-lgi);
+  }
+  .sub-title-frame {
+    min-width: 100%;
+  }
+  .title-frame1 {
+    gap: var(--gap-base);
+  }
+  .th-frame {
+    gap: var(--gap-lg);
+  }
+  .th-frame-wrapper {
+    min-width: 100%;
+  }
+  .immerse-text {
+    gap: var(--gap-9xl);
+  }
+  .real-world-applications-wrapper {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .rating-component1 {
+    gap: var(--gap-6xl);
+    
+  }
+  .rating-component-wrapper {
+    min-width: 100%;
+    
+  }
+  .contact-us-frame1 {
+    gap: var(--gap-mini);
+  }
+  .frame-group {
+    gap: var(--gap-9xl);
+  }
+  .personalized-counselling-inner {
+    min-width: 100%;
+  }
+  .personalized-counselling1 {
+    gap: var(--gap-9xl);
+  }
+  .personalized-counselling-frame {
+    gap: 29px;
+  }
+  .frame-parent {
+    gap: var(--gap-base);
+  }
+  .frame-book-free-illustration-s {
+    gap: var(--gap-9xl);
+  }
+  .exolore-more-and-about-us {
+    gap: var(--gap-lgi);
+    padding-bottom: 26px;
+    box-sizing: border-box;
+  }
+  .introducing-machine-learning {
+    gap: var(--gap-lgi);
+  }
+  .introducing-machine-learning-parent {
+    gap: var(--gap-9xl);
+  }
+  .machine-learning-intro {
+    gap: var(--gap-xl);
+  }
+  .frame-container {
+    gap: var(--gap-12xl);
+  }
+  .courses1 {
+    gap: 23px;
+  }
+  .contact-us1 {
+    gap: 53px;
+    padding-top: 84px;
+    padding-bottom: 66px;
+    box-sizing: border-box;
+  }
+  .feedback1 {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .location-pad {
+    min-width: 100%;
+  }
+  .location1 {
+    padding-left: 35px;
+    box-sizing: border-box;
+  }
+  .united-india-info {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .the-design-thinking-container {
+    font-size: var(--font-size-10xl);
+    line-height: 40px;
+  }
+  .follow-us1 {
+    font-size: var(--font-size-base);
+  }
+  .phone-no-parent {
+    gap: var(--gap-5xl);
+  }
+  .student-imteraction-image {
+    min-width: 100%;
+  }
+  .supportive-faculty,
+  .why-aspire-arc {
+    font-size: var(--font-size-5xl);
+  }
+  .aspire-arc-values-container {
+    font-size: var(--font-size-base);
+  }
+  .interactive-learning {
+    font-size: var(--font-size-5xl);
+  }
+  .classes-at-aspire-container {
+    font-size: var(--font-size-base);
+  }
+  .flexible-schedules {
+    font-size: var(--font-size-5xl);
+  }
+  .recognizing-the-challenges-container {
+    font-size: var(--font-size-base);
+  }
+  .real-world-applications {
+    font-size: var(--font-size-3xl);
+  }
+  .aspire-arc-believes-container {
+    font-size: var(--font-size-base);
+  }
+  .guidance-for-the {
+    font-size: var(--font-size-5xl);
+  }
+  .aspire-arc-goes-container {
+    font-size: var(--font-size-base);
+  }
+  .courses2 {
+    font-size: var(--font-size-10xl);
+  }
+  .th-10th {
+    font-size: var(--font-size-3xl);
+  }
+  .immerse-yourself-in-container {
+    font-size: var(--font-size-lgi);
+  }
+  .th-12th {
+    font-size: var(--font-size-3xl);
+  }
+  .step-into-the {
+    font-size: var(--font-size-lgi);
+  }
+  .introducing-machine-learning2 {
+    font-size: var(--font-size-3xl);
+  }
+  .take-your-skills {
+    font-size: var(--font-size-lgi);
+  }
+  .personalized-counselling-sessi1 {
+    font-size: var(--font-size-3xl);
+  }
+  .embark-on-a {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-container {
+    gap: var(--gap-mini);
+  }
+  .courses1 {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+  .contact-us2 {
+    font-size: var(--font-size-19xl);
+  }
+  .book-your-free-container,
+  .or-fill-the-container {
+    font-size: var(--font-size-2xl);
+  }
+  .contact-us1 {
+    gap: 26px;
+  }
+  .please-provide-your {
+    font-size: var(--font-size-10xl);
+  }
+  .rating-system {
+    gap: var(--gap-12xl);
+  }
+  .your-opinion-matters {
+    font-size: 27px;
+  }
+  .feedback1 {
+    gap: var(--gap-18xl);
+  }
+  .we-are-currently-container {
+    font-size: 25px;
+  }
+  .location1 {
+    padding-top: 27px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .follow-us2,
+  .phone-no-91,
+  .united-india-apartments2 {
+    font-size: var(--font-size-lgi);
+  }
+}
